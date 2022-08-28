@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+
+    td, th {
+        border: 1px dotted gray;
+        padding: 0.3em;
+    }
+
+    th {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,18 @@
+input[type=file] {
+    display: none,
+}
+
+.sample {
+    .lineno {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 90%;
+    }
+
+    .remark {
+        color: gray;
+    }
+
+    .identifier {
+        font-weight: bolder;
+    }
+}
